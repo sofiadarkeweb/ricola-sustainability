@@ -1,18 +1,12 @@
 import React from "react"
 import "./Box.css"
-import { Card } from "react-bootstrap"
-import Herbimg from "../images/herbimg.jpg"
-import Popup from "reactjs-popup"
-import "reactjs-popup/dist/index.css"
-// import React, { useState } from "react"
 
 const MoreDeets = () => {
   const cardInfo = [
     {
-      image: Herbimg,
+      image: "https://i.insider.com/50f967f56bb3f7830a000019",
       title: "Lebron James",
       text: "THE GOAT",
-      caption: "herb",
     },
     {
       image:
@@ -198,22 +192,11 @@ const MoreDeets = () => {
   const renderCard = (card, index) => {
     return (
       <Card style={{ width: "18rem" }} key={index} className="box">
-        <Card.Img variant="top" /*src="holder.js/100px180"*/ src={card.image} />
-        <div>{card.caption}</div>
-        {/* <Popup
-          trigger={
-            <button type="button" className="button" onClick={openTooltip}>
-              open
-            </button>
-          }
-          position="right center"
-        >
-          <div>Popup content here !!</div>
-        </Popup> */}
-        {/* <Card.Body>
+        <Card.Img variant="top" src="holder.js/100px180" src={card.image} />
+        <Card.Body>
           <Card.Title>{card.title}</Card.Title>
           <Card.Text>{card.text}</Card.Text>
-        </Card.Body> */}
+        </Card.Body>
       </Card>
     )
   }
