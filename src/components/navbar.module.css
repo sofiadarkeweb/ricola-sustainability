@@ -1,0 +1,26 @@
+.logo {
+  /* background-color: blue; */
+  width: 15vw;
+  /* margin: 0.5rem;
+  margin-left: 1rem; */
+}
+
+.navbar {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+.hamburgerlines {
+  width: 35px;
+  height: 4px;
+  background-color: #1e4c45;
+  margin: 6px 0;
+  /* padding-right: 1rem; */
+}
+
+.hamburgerwrapper {
+  /* padding-right: 2rem; */
+}
