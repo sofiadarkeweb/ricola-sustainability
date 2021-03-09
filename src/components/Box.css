@@ -18,10 +18,29 @@
 } */
 
 .box {
-  margin: 1rem;
+
+  margin: 1rem auto;
   color: blue;
   background-color: #305A53;
   min-height: 25vw;
+}
+
+.modal {
+  margin: 30px auto;
+}
+
+body {
+  background-color: #f8cd46;
+  margin: 0 auto;
+}
+
+.goalTitle {
+  text-align: center;
+  background-color: green;
+  color: white;
+  padding: 1rem;
+  margin: 0;
+
 }
 
 .button {
@@ -49,18 +68,34 @@
 
 
 
+.popupimg {
+  width: 20vw;
+}
+
 .grid {
   position: relative;
   min-height: 100%;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  background-color: #f8cd46;
+  /* background-color: #f8cd46; */
 }
 
 .grid > div {
   flex-basis: calc(25% - 40px);
 }
+
+.popup-content > {
+  background: green;
+  border: 5px red;
+}
+
+/* .modal-content {
+  display: flex; 
+}
+
+.popup-overlay {
+} */
 
 /* .boxy {
   width: 300px;

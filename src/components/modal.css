@@ -1,8 +1,7 @@
 
-
-.modal {
+/* .modal {
   font-size: 12px;
-  background-color: aqua;
+  background-color: blue;
 
 }
 .modal > .header {
@@ -14,6 +13,7 @@
 }
 .modal > .content {
   width: 100%;
+
   padding: 10px 5px;
 
 }
@@ -35,4 +35,8 @@
   background: #ffffff;
   border-radius: 18px;
   border: 1px solid #cfcece;
-}
+} */
+
+/* .popupcontainer {
+  background-color: blue;
+} */
