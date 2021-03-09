@@ -1,5 +1,6 @@
-.modal {
+/* .modal {
   font-size: 12px;
+  background-color: blue;
 }
 .modal > .header {
   width: 100%;
@@ -10,6 +11,7 @@
 }
 .modal > .content {
   width: 100%;
+
   padding: 10px 5px;
 }
 .modal > .actions {
@@ -30,4 +32,8 @@
   background: #ffffff;
   border-radius: 18px;
   border: 1px solid #cfcece;
-}
+} */
+
+/* .popupcontainer {
+  background-color: blue;
+} */
