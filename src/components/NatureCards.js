@@ -1,5 +1,5 @@
 import React from "react"
-import "./Box.css"
+import styles from "./Box.css"
 import { Card } from "react-bootstrap"
 import Herbimg from "../images/herbimg.jpg"
 import Popup from "reactjs-popup"
@@ -175,29 +175,29 @@ const MoreDeets = () => {
 
   const renderCard = (card, index) => {
     const Modal = () => (
-      <Popup trigger={<button className="button">{card.goal}</button>} modal>
-        <span> {<Card.Title>{card.title}</Card.Title>} </span>
+      <Popup
+        className="popupcontainer"
+        trigger={<button className="button">{card.goal}</button>}
+        modal
+      >
+        <div>
+          <h2 className="goalTitle">{card.goal}</h2>
+          <div className="modal-content">
+            <img /*variant="top" */ className="popupimg" src={card.image} />
+            <div>{card.title}</div>
+            <div>{card.text}</div>
+          </div>
+        </div>
       </Popup>
     )
     return (
       <Card style={{ width: "18rem" }} key={index} className="box">
-        <Card.Img variant="top" /*src="holder.js/100px180"*/ src={card.image} />
-        <Modal />
-
-        {/* <Popup
-          trigger={
-            <button type="button" className="button" onClick={openTooltip}>
-              open
-            </button>
-          }
-          position="right center"
-        >
-          <div>Popup content here !!</div>
-        </Popup> */}
-        {/* <Card.Body>
-          <Card.Title>{card.title}</Card.Title>
-          <Card.Text>{card.text}</Card.Text>
-        </Card.Body> */}
+        <Card.Img
+          className="cardImg"
+          variant="top"
+          /*src="holder.js/100px180"*/ src={card.image}
+        />
+        <Modal className="modal" />
       </Card>
     )
   }
