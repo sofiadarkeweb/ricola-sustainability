@@ -1,0 +1,133 @@
+
+.title1{
+text-align: center;
+padding-top: 2rem;
+color:#F8CD46;
+font-size: 2.4rem;
+}
+
+.headText{
+    color:#F8CD46;
+    text-align: center;
+    padding: 1.3rem;
+    padding-bottom: 2rem;
+    
+    }
+
+.mainGrid{
+    display: inline-grid;
+    grid-template-columns: 9rem 9rem;
+    grid-template-rows: 11rem 11rem;
+    margin-left: 2.5rem;
+}
+
+.indexImg{
+    width: 9rem;
+    height: 11rem;
+}
+
+@media (min-width: 540px){
+.mainGrid{
+   margin-left: 7rem;
+   grid-template-columns: 10rem 10rem;
+    grid-template-rows: 11rem 11rem;
+}
+.indexImg{
+    width: 10rem;
+    height: 11rem;
+}
+
+}
+
+@media (min-width: 750px){
+
+    .title1{
+        text-align: center;
+        margin-top: 3rem;
+        color:#F8CD46;
+        font-size: 3rem;
+        }
+
+        .headText{
+            color:#F8CD46;
+            text-align: center;
+            padding: 1.5rem;
+            padding-bottom: 2rem;
+            font-size:1.4rem;
+            }
+
+     .mainGrid{
+            display: inline-grid;
+            grid-template-columns: 13rem 13rem;
+            grid-template-rows: 14rem 14rem;
+            padding: 4.2rem;
+        }
+
+        .indexImg{
+            width: 13rem;
+            height: 14rem;
+        }
+
+}
+
+
+@media (min-width: 992px){
+
+    .title1{
+        text-align: center;
+        margin-top: 3rem;
+        color:#F8CD46;
+        font-size: 5rem;
+        }
+
+        .headText{
+            color:#F8CD46;
+            text-align: center;
+            padding: 1.5rem;
+            padding-bottom: 2rem;
+            font-size: 2rem;
+            }
+
+     .mainGrid{
+            display: inline-grid;
+            grid-template-columns: 19rem 19rem;
+            grid-template-rows: 20rem 20rem;
+            padding: 6em;
+        }
+
+        .indexImg{
+            width: 19rem;
+            height: 20rem;
+        }
+
+}
+
+@media (min-width: 1200px){
+
+    .title1{
+        text-align: center;
+        margin-top: 3rem;
+        color:#F8CD46;
+        font-size: 4rem;
+        }
+
+        .headText{
+            color:#F8CD46;
+            text-align: center;
+            padding: 1.5rem;
+            font-size: 1.7rem;
+            }
+
+     .mainGrid{
+            display: grid;
+            grid-template-columns:repeat(4, 1fr) ;
+            /* padding: 6em; */
+            padding-left: 2rem;
+        }
+
+        .indexImg{
+            width: 15rem;
+            height: 20rem;
+        }
+            
+}
