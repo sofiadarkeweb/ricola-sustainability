@@ -1,6 +1,8 @@
+
 /* .modal {
   font-size: 12px;
   background-color: blue;
+
 }
 .modal > .header {
   width: 100%;
@@ -13,6 +15,7 @@
   width: 100%;
 
   padding: 10px 5px;
+
 }
 .modal > .actions {
   width: 100%;

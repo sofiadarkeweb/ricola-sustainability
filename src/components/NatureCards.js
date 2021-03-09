@@ -1,7 +1,20 @@
 import React from "react"
 import styles from "./Box.css"
 import { Card } from "react-bootstrap"
-import Herbimg from "../images/herbimg.jpg"
+import Herbimg1 from "../images/herbimg1.png"
+import Herbimg2 from "../images/herbimg2.png"
+import Herbimg3 from "../images/herbimg3.png"
+import Herbimg4 from "../images/herbimg4.png"
+import Herbimg5 from "../images/herbimg5.png"
+import Herbimg6 from "../images/herbimg6.png"
+import Herbimg7 from "../images/herbimg7.png"
+import Herbimg8 from "../images/herbimg8.png"
+import Herbimg9 from "../images/herbimg9.png"
+import Herbimg11 from "../images/herbimg11.png"
+
+
+
+
 import Popup from "reactjs-popup"
 import "reactjs-popup/dist/index.css"
 // import React, { useState } from "react"
@@ -9,172 +22,73 @@ import "reactjs-popup/dist/index.css"
 const MoreDeets = () => {
   const cardInfo = [
     {
-      image: Herbimg,
-      title: "Lebron James",
+      image: Herbimg11,
+      title: "Emission Transparency",
       text: "THE GOAT",
       caption: "herb",
-      goal: "goal nr1",
+      goal: "Emission Transparency",
     },
     {
-      image:
-        "https://cdn.vox-cdn.com/thumbor/M1qLla2h-V_2yV_Z4nF_NHH_tjA=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/18286450/usa_today_12495932.jpg",
-      title: "Alex Caruso",
+      image: Herbimg1,
+      title: "Sustainable Agriculture",
       text: "THE TRUE GOAT",
+      goal: "Sustainable Agriculture",
     },
     {
-      image:
-        "https://www.insidehook.com/wp-content/uploads/2020/03/steph-curry-nba-jam-e1583192954848.jpg?fit=734%2C488",
-      title: "Steph Curry",
+      image: Herbimg2,
+      title: "Zero Pesticides",
       text: "he good",
+      goal: "Zero Pesticides",
     },
     {
-      image:
-        "https://i.pinimg.com/originals/03/ce/01/03ce015ea85dc84a17fb4c24a96cd87e.jpg",
-      title: "Michael Jordan",
+      image: Herbimg3,
+      title: "Distribution & Logistics",
       text: "he is very close to goat",
+      goal: "Distribution & Logistics",
+
     },
     {
-      image: "https://i.insider.com/50f967f56bb3f7830a000019",
-      title: "Lebron James",
+      image: Herbimg4,
+      title: "Reduce Waste",
       text: "THE GOAT",
+      goal: "Reduce Waste",
     },
     {
-      image:
-        "https://cdn.vox-cdn.com/thumbor/M1qLla2h-V_2yV_Z4nF_NHH_tjA=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/18286450/usa_today_12495932.jpg",
-      title: "Alex Caruso",
+      image: Herbimg5,
+      title: "Recyclable/Compostable/Biodegradeable",
       text: "THE TRUE GOAT",
+      goal: "Recyclable/Compostable/Biodegradeable",
     },
     {
-      image:
-        "https://www.insidehook.com/wp-content/uploads/2020/03/steph-curry-nba-jam-e1583192954848.jpg?fit=734%2C488",
-      title: "Steph Curry",
+      image: Herbimg6,
+      title: "FSC Certification",
       text: "he good",
+      goal: "FSC Certification",
     },
     {
-      image:
-        "https://i.pinimg.com/originals/03/ce/01/03ce015ea85dc84a17fb4c24a96cd87e.jpg",
-      title: "Michael Jordan",
+      image: Herbimg7,
+      title: "Water Reduction",
       text: "he is very close to goat",
+      goal: "Water Reduction",
     },
     {
-      image: "https://i.insider.com/50f967f56bb3f7830a000019",
-      title: "Lebron James",
+      image: Herbimg8,
+      title: "Biodiversity Principles",
       text: "THE GOAT",
+      goal: "Biodiversity Principles",
     },
     {
-      image:
-        "https://cdn.vox-cdn.com/thumbor/M1qLla2h-V_2yV_Z4nF_NHH_tjA=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/18286450/usa_today_12495932.jpg",
-      title: "Alex Caruso",
+      image: Herbimg9,
+      title: "Renewable Energy",
       text: "THE TRUE GOAT",
+      goal: "Renewable Energy",
     },
-    {
-      image:
-        "https://www.insidehook.com/wp-content/uploads/2020/03/steph-curry-nba-jam-e1583192954848.jpg?fit=734%2C488",
-      title: "Steph Curry",
-      text: "he good",
-    },
-    {
-      image:
-        "https://i.pinimg.com/originals/03/ce/01/03ce015ea85dc84a17fb4c24a96cd87e.jpg",
-      title: "Michael Jordan",
-      text: "he is very close to goat",
-    },
-    {
-      image: "https://i.insider.com/50f967f56bb3f7830a000019",
-      title: "Lebron James",
-      text: "THE GOAT",
-    },
-    {
-      image:
-        "https://cdn.vox-cdn.com/thumbor/M1qLla2h-V_2yV_Z4nF_NHH_tjA=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/18286450/usa_today_12495932.jpg",
-      title: "Alex Caruso",
-      text: "THE TRUE GOAT",
-    },
-    {
-      image:
-        "https://www.insidehook.com/wp-content/uploads/2020/03/steph-curry-nba-jam-e1583192954848.jpg?fit=734%2C488",
-      title: "Steph Curry",
-      text: "he good",
-    },
-    {
-      image:
-        "https://i.pinimg.com/originals/03/ce/01/03ce015ea85dc84a17fb4c24a96cd87e.jpg",
-      title: "Michael Jordan",
-      text: "he is very close to goat",
-    },
-    {
-      image: "https://i.insider.com/50f967f56bb3f7830a000019",
-      title: "Lebron James",
-      text: "THE GOAT",
-    },
-    {
-      image:
-        "https://cdn.vox-cdn.com/thumbor/M1qLla2h-V_2yV_Z4nF_NHH_tjA=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/18286450/usa_today_12495932.jpg",
-      title: "Alex Caruso",
-      text: "THE TRUE GOAT",
-    },
-    {
-      image:
-        "https://www.insidehook.com/wp-content/uploads/2020/03/steph-curry-nba-jam-e1583192954848.jpg?fit=734%2C488",
-      title: "Steph Curry",
-      text: "he good",
-    },
-    {
-      image:
-        "https://i.pinimg.com/originals/03/ce/01/03ce015ea85dc84a17fb4c24a96cd87e.jpg",
-      title: "Michael Jordan",
-      text: "he is very close to goat",
-    },
-    {
-      image: "https://i.insider.com/50f967f56bb3f7830a000019",
-      title: "Lebron James",
-      text: "THE GOAT",
-    },
-    {
-      image:
-        "https://cdn.vox-cdn.com/thumbor/M1qLla2h-V_2yV_Z4nF_NHH_tjA=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/18286450/usa_today_12495932.jpg",
-      title: "Alex Caruso",
-      text: "THE TRUE GOAT",
-    },
-    {
-      image:
-        "https://www.insidehook.com/wp-content/uploads/2020/03/steph-curry-nba-jam-e1583192954848.jpg?fit=734%2C488",
-      title: "Steph Curry",
-      text: "he good",
-    },
-    {
-      image:
-        "https://i.pinimg.com/originals/03/ce/01/03ce015ea85dc84a17fb4c24a96cd87e.jpg",
-      title: "Michael Jordan",
-      text: "he is very close to goat",
-    },
-    {
-      image: "https://i.insider.com/50f967f56bb3f7830a000019",
-      title: "Lebron James",
-      text: "THE GOAT",
-    },
-    {
-      image:
-        "https://cdn.vox-cdn.com/thumbor/M1qLla2h-V_2yV_Z4nF_NHH_tjA=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/18286450/usa_today_12495932.jpg",
-      title: "Alex Caruso",
-      text: "THE TRUE GOAT",
-    },
-    {
-      image:
-        "https://www.insidehook.com/wp-content/uploads/2020/03/steph-curry-nba-jam-e1583192954848.jpg?fit=734%2C488",
-      title: "Steph Curry",
-      text: "he good",
-    },
-    {
-      image:
-        "https://i.pinimg.com/originals/03/ce/01/03ce015ea85dc84a17fb4c24a96cd87e.jpg",
-      title: "Michael Jordan",
-      text: "he is very close to goat",
-    },
+    
   ]
 
   const renderCard = (card, index) => {
     const Modal = () => (
+
       <Popup
         className="popupcontainer"
         trigger={<button className="button">{card.goal}</button>}
@@ -188,9 +102,10 @@ const MoreDeets = () => {
             <div>{card.text}</div>
           </div>
         </div>
+
       </Popup>
     )
-    return (
+    return (      
       <Card style={{ width: "18rem" }} key={index} className="box">
         <Card.Img
           className="cardImg"
