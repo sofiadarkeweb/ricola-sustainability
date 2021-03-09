@@ -12,9 +12,6 @@ import Herbimg8 from "../images/herbimg8.png"
 import Herbimg9 from "../images/herbimg9.png"
 import Herbimg11 from "../images/herbimg11.png"
 
-
-
-
 import Popup from "reactjs-popup"
 import "reactjs-popup/dist/index.css"
 // import React, { useState } from "react"
@@ -24,8 +21,9 @@ const MoreDeets = () => {
     {
       image: Herbimg11,
       title: "Emission Transparency",
-      text: "THE GOAT",
-      caption: "herb",
+      text:
+        "We are gathering data from our business world wide to acheieve 100% Emission Transparency. To diminish our carbon footprint and to open up for communication about how to run our company and at the same time give something back to our precious eco systems.",
+      caption: "Sage",
       goal: "Emission Transparency",
     },
     {
@@ -45,7 +43,6 @@ const MoreDeets = () => {
       title: "Distribution & Logistics",
       text: "he is very close to goat",
       goal: "Distribution & Logistics",
-
     },
     {
       image: Herbimg4,
@@ -83,12 +80,10 @@ const MoreDeets = () => {
       text: "THE TRUE GOAT",
       goal: "Renewable Energy",
     },
-    
   ]
 
   const renderCard = (card, index) => {
     const Modal = () => (
-
       <Popup
         className="popupcontainer"
         trigger={<button className="button">{card.goal}</button>}
@@ -100,12 +95,12 @@ const MoreDeets = () => {
             <img /*variant="top" */ className="popupimg" src={card.image} />
             <div>{card.title}</div>
             <div>{card.text}</div>
+            <div>{card.caption}</div>
           </div>
         </div>
-
       </Popup>
     )
-    return (      
+    return (
       <Card style={{ width: "18rem" }} key={index} className="box">
         <Card.Img
           className="cardImg"
