@@ -21,8 +21,23 @@ body {
   width: 85%;
   margin-top: 4rem;
   font-weight: 700;
-  font-size: 4em;
+  font-size: 3em;
 }
+
+.link{
+  position: absolute;
+  /* background-color: #305a53; */
+  /* color: white; */
+  color: #305a53;
+  text-align: center;
+  text-decoration: none;
+  width: 85%;
+  margin-top: 4rem;
+  font-weight: 700;
+  font-size: 3em;
+  
+}
+
 
 .headText {
   color: #f8cd46;

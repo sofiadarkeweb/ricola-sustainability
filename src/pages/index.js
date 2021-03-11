@@ -3,11 +3,10 @@ import Headerin from "../components/HeadIn"
 import Footer from "../components/Footer"
 import Middle from "../components/Middle"
 import Navbar from "../components/Navbar"
-
-// import Nature from "../nature"
-// import styles from "../styles/StylesGlobal"
+import Nature from "./nature"
+// import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import "bootstrap/dist/css/bootstrap.min.css"
-// import * as ReactBootStrap from "react-bootstrap"
+
 
 export default function App() {
   return (
@@ -15,6 +14,11 @@ export default function App() {
       <Navbar />
       <Headerin />
       <Middle />
+      {/* <Router>
+       <Switch>
+		      <Route exact path="/nature.js" component={Nature}/>
+	    </Switch>
+    </Router>, */}
       <Footer />
     </div>
   )
