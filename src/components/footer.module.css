@@ -1,3 +1,40 @@
 .footer {
-  background-color: #efefef;
+  background-color: rgba(239, 239, 239, 1);
 }
+
+p {
+  color: #1e4c45;
+  padding-top: 1rem;
+}
+.globalwrapper {
+color: #1e4c45;
+background-color: rgba(239, 239, 239, 1);
+}
+
+
+
+button {
+   border: solid 1px #1e4c45;
+  background-color:  rgba(239, 239, 239, 1);
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+  border-radius: 25%; 
+  margin: 20px;
+}
+
+svg {
+  /* fill: #1e4c45; */
+  
+  margin-right: 15px;
+}
+
+.upperfooter {
+  display: inline-block;
+  position: relative;
+}
+
+.follow {
+  font-weight: bold;
+}
+
+
+
