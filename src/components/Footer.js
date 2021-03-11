@@ -4,7 +4,7 @@ import Styles from "./footer.module.css"
 const Footer = () => {
   return (
     <div className={Styles.globalwrapper}>
-      <div className="upperfooter">
+      <div className={Styles.upperfooter}>
         <p>Cultivation</p>
         <p>Growing Regions</p>
         <p>Harvest</p>
@@ -26,7 +26,7 @@ const Footer = () => {
         <p>Yarrow</p>
       </div>
       <div>
-        <button bsClass="custom-class">
+        <button className={Styles.buybtn}>
           {" "}
           <svg
             className="carticon"
@@ -60,9 +60,8 @@ const Footer = () => {
           </svg>{" "}
           BUY ONLINE
         </button>
-        <p className="follow">FOLLOW RICOLA</p>
+        <p className={Styles.follow}>FOLLOW RICOLA</p>
         <svg
-          className="icon"
           width="18"
           height="32"
           viewBox="0 0 18 32"
@@ -75,7 +74,6 @@ const Footer = () => {
         </svg>
 
         <svg
-          className="icon"
           width="24"
           height="24"
           viewBox="0 0 24 24"
@@ -88,7 +86,7 @@ const Footer = () => {
         </svg>
 
         <svg
-          className="icon"
+          className={Styles.icon}
           width="23"
           height="23"
           viewBox="0 0 483 448"
